@@ -1,8 +1,10 @@
+import boards from './components/boards/boards';
+
 import '../styles/main.scss';
 import 'bootstrap';
 
 const init = () => {
-  console.error('dope');
+  boards.initBoards();
 };
 
 init();
